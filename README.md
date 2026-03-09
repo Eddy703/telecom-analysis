@@ -43,5 +43,5 @@ Para reproducir los resultados exactos de este análisis, sigue estos pasos:
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
-   cd TU_REPOSITORIO
+   git clone [https://github.com/Eddy703/telecom-analysis.git](https://github.com/Eddy703/telecom-analysis.git)
+   cd telecom-analysis

@@ -8,11 +8,22 @@ El objetivo principal de este proyecto es analizar el comportamiento de uso de l
 
 Los hallazgos de este análisis están orientados a proporcionar recomendaciones estratégicas para optimizar la retención de clientes (reducción de Churn) y proponer mejoras en la oferta actual de planes tarifarios (Básico y Premium).
 
+## 📁 Estructura del Repositorio
+
+```text
+.
+├── datasets/                 # Carpeta con los datos crudos
+│   ├── plans.csv
+│   ├── users_latam.csv
+│   └── usage.csv
+├── S7 Version-Estudiante-Project-ConnectaTel.ipynb  # Notebook principal
+└── README.md     # Documentación del proyecto
+
 ## 🗂️ Datasets Utilizados
-El análisis se fundamenta en tres conjuntos de datos principales:
-* **`plans.csv`**: Información de los planes tarifarios actuales (costo mensual, minutos incluidos, GB, costo por excedentes).
-* **`users_latam.csv`**: Perfil demográfico de 4,000 clientes, incluyendo edad, ciudad de residencia, fecha de registro, plan contratado y fecha de abandono (churn).
-* **`usage.csv`**: Registro transaccional detallado (40,000 filas) del uso real de los servicios, clasificando eventos en llamadas (`call`) y mensajes de texto (`text`), junto con su duración o longitud.
+Los datos se encuentran en la carpeta [`/datasets`](./datasets/) y consisten en:
+* **[`plans.csv`](./datasets/plans.csv)**: Información de los planes tarifarios.
+* **[`users_latam.csv`](./datasets/users_latam.csv)**: Perfil demográfico de los 4,000 clientes.
+* **[`usage.csv`](./datasets/usage.csv)**: Registro transaccional de uso de servicios.
 
 ## 🛠️ Etapas del Análisis Realizadas
 1. **Carga y Exploración Inicial:** Revisión de la estructura de los datos, tipos de variables y detección de inconsistencias.
